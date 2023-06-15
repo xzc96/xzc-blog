@@ -1,0 +1,14 @@
+export const data = JSON.parse("{\"key\":\"v-39c95836\",\"path\":\"/%E6%9D%82%E8%AE%B0/ExpiringMap%EF%BC%9A%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%9A%84Java%E7%BC%93%E5%AD%98%E6%96%B9%E5%BC%8F/\",\"title\":\"ExpiringMap：轻量级的Java缓存方式\",\"lang\":\"zh-CN\",\"frontmatter\":{\"description\":\"ExpiringMap：轻量级的Java缓存方式 一、ExpiringMap 具有高性能、低开销、零依赖、线程安全、使用 ConcurrentMap 的实现过期 entries 等优点。 其主要特点包括：过期策略、可变有效期、最大尺寸、侦听器过期、延迟输入加载、过期自省等。 二、基本功能 1、可设置 Map 中的 Entry 在一段时间后自动过期。 2、可设置 Map 最大容纳值，当到达 Maximum size 后，再次插入值会导致 Map 中的第一个值过期。 3、可添加监听事件，在监听到 Entry 过期时调度监听函数。\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"https://mister-hope.github.io/%E6%9D%82%E8%AE%B0/ExpiringMap%EF%BC%9A%E8%BD%BB%E9%87%8F%E7%BA%A7%E7%9A%84Java%E7%BC%93%E5%AD%98%E6%96%B9%E5%BC%8F/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"Jankin'Blog\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"ExpiringMap：轻量级的Java缓存方式\"}],[\"meta\",{\"property\":\"og:description\",\"content\":\"ExpiringMap：轻量级的Java缓存方式 一、ExpiringMap 具有高性能、低开销、零依赖、线程安全、使用 ConcurrentMap 的实现过期 entries 等优点。 其主要特点包括：过期策略、可变有效期、最大尺寸、侦听器过期、延迟输入加载、过期自省等。 二、基本功能 1、可设置 Map 中的 Entry 在一段时间后自动过期。 2、可设置 Map 最大容纳值，当到达 Maximum size 后，再次插入值会导致 Map 中的第一个值过期。 3、可添加监听事件，在监听到 Entry 过期时调度监听函数。\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"JanKin Xie\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"ExpiringMap：轻量级的Java缓存方式\\\",\\\"image\\\":[\\\"\\\"],\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"JanKin Xie\\\",\\\"url\\\":\\\"\\\"}]}\"]]},\"headers\":[{\"level\":3,\"title\":\"一、ExpiringMap\",\"slug\":\"一、expiringmap\",\"link\":\"#一、expiringmap\",\"children\":[]},{\"level\":3,\"title\":\"二、基本功能\",\"slug\":\"二、基本功能\",\"link\":\"#二、基本功能\",\"children\":[]},{\"level\":3,\"title\":\"三、使用方式\",\"slug\":\"三、使用方式\",\"link\":\"#三、使用方式\",\"children\":[]}],\"readingTime\":{\"minutes\":2.69,\"words\":807},\"filePathRelative\":\"杂记/ExpiringMap：轻量级的Java缓存方式/README.md\",\"excerpt\":\"<h1> ExpiringMap：轻量级的Java缓存方式</h1>\\n<h3> 一、ExpiringMap</h3>\\n<p>具有高性能、低开销、零依赖、线程安全、使用 ConcurrentMap 的实现过期 entries 等优点。<br>\\n其主要特点包括：过期策略、可变有效期、最大尺寸、侦听器过期、延迟输入加载、过期自省等。</p>\\n<h3> 二、基本功能</h3>\\n<p>1、可设置 Map 中的 Entry 在一段时间后自动过期。</p>\\n<p>2、可设置 Map 最大容纳值，当到达 Maximum size 后，再次插入值会导致 Map 中的第一个值过期。</p>\\n<p>3、可添加监听事件，在监听到 Entry 过期时调度监听函数。</p>\",\"autoDesc\":true}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
