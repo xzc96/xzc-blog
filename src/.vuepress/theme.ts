@@ -23,53 +23,28 @@ export default hopeTheme({
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
-
-  // navbar
   navbar,
-
-  // sidebar
-  sidebar,
-
-  footer: "默认页脚",
+  // navbar: false,// 导航栏
+  sidebar: false,//侧边栏
+  breadcrumb: false,// 路径导航
+  // pageInfo: false,// 页面信息
+  contributors: false,// 贡献者
+  editLink: false,// 编辑此页链接
+  lastUpdated: false,// 更新时间
+  // prev: false, // 上一篇/下一篇 链接
+  // next: false,
+  // comment: false,// 评论
+  // footer: false, // 页脚
 
   displayFooter: true,
 
   blog: {
     description: "进击的后端开发者",
-    intro: "/intro.html",
+    // intro: "/intro.html",
     medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      Instagram: "https://example.com",
-      Lark: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
-      MrHope: ["https://mrhope.site", MR_HOPE_AVATAR],
+      Wechat: "/xzc-blog/file/wechat.jpg",
+      Email: "mailto:xzc_96@163.com",
+      Gmail: "mailto:jankinxie96@gmail.com",
     },
   },
 

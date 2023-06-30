@@ -21,11 +21,5 @@ projects:
     desc: 江云飞小伙伴的博客
     link: https://cuckoocry.github.io/xiaofeipeng
 
-footer: 自定义你的页脚文字
+footer: 泻水置平地，各自东西南北流。人生亦有命，安能行叹复坐愁？酌酒以自宽，举杯断绝歌路难。心非木石岂无感？吞声踯躅不敢言。
 ---
-
-这是一个博客主页的案例。
-
-要使用此布局，你应该在页面前端设置 `layout: BlogHome` 和 `home: true`。
-
-相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home/)。
